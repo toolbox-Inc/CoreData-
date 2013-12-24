@@ -22,6 +22,11 @@
 		20A3202618697DDA00548DC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A3200A18697DDA00548DC4 /* CoreData.framework */; };
 		20A3202E18697DDA00548DC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20A3202C18697DDA00548DC4 /* InfoPlist.strings */; };
 		20A3203018697DDA00548DC4 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3202F18697DDA00548DC4 /* CoreDataTests.m */; };
+		20A3203A18697F6E00548DC4 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A3203918697F6E00548DC4 /* MainStoryBoard.storyboard */; };
+		20A3203D1869E27200548DC4 /* PatientsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3203C1869E27200548DC4 /* PatientsTVC.m */; };
+		20A320401869E2A800548DC4 /* PrescriptionsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3203F1869E2A800548DC4 /* PrescriptionsTVC.m */; };
+		20A320431869E36000548DC4 /* AddPatientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320421869E36000548DC4 /* AddPatientVC.m */; };
+		20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320451869E39100548DC4 /* AddPrescriptionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		20A3202B18697DDA00548DC4 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		20A3202D18697DDA00548DC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20A3202F18697DDA00548DC4 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		20A3203918697F6E00548DC4 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		20A3203B1869E27200548DC4 /* PatientsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientsTVC.h; sourceTree = "<group>"; };
+		20A3203C1869E27200548DC4 /* PatientsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientsTVC.m; sourceTree = "<group>"; };
+		20A3203E1869E2A800548DC4 /* PrescriptionsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionsTVC.h; sourceTree = "<group>"; };
+		20A3203F1869E2A800548DC4 /* PrescriptionsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionsTVC.m; sourceTree = "<group>"; };
+		20A320411869E36000548DC4 /* AddPatientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPatientVC.h; sourceTree = "<group>"; };
+		20A320421869E36000548DC4 /* AddPatientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientVC.m; sourceTree = "<group>"; };
+		20A320441869E39100548DC4 /* AddPrescriptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPrescriptionVC.h; sourceTree = "<group>"; };
+		20A320451869E39100548DC4 /* AddPrescriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrescriptionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,15 @@
 		20A31FF818697DDA00548DC4 = {
 			isa = PBXGroup;
 			children = (
+				20A3203918697F6E00548DC4 /* MainStoryBoard.storyboard */,
+				20A3203B1869E27200548DC4 /* PatientsTVC.h */,
+				20A3203C1869E27200548DC4 /* PatientsTVC.m */,
+				20A3203E1869E2A800548DC4 /* PrescriptionsTVC.h */,
+				20A3203F1869E2A800548DC4 /* PrescriptionsTVC.m */,
+				20A320411869E36000548DC4 /* AddPatientVC.h */,
+				20A320421869E36000548DC4 /* AddPatientVC.m */,
+				20A320441869E39100548DC4 /* AddPrescriptionVC.h */,
+				20A320451869E39100548DC4 /* AddPrescriptionVC.m */,
 				20A3200C18697DDA00548DC4 /* CoreData */,
 				20A3202918697DDA00548DC4 /* CoreDataTests */,
 				20A3200318697DDA00548DC4 /* Frameworks */,
@@ -200,6 +223,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ray Amour";
 				TargetAttributes = {
+					20A3200018697DDA00548DC4 = {
+						DevelopmentTeam = 9KH9J63N69;
+					};
 					20A3202018697DDA00548DC4 = {
 						TestTargetID = 20A3200018697DDA00548DC4;
 					};
@@ -228,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A3203A18697F6E00548DC4 /* MainStoryBoard.storyboard in Resources */,
 				20A3201118697DDA00548DC4 /* InfoPlist.strings in Resources */,
 				20A3201C18697DDA00548DC4 /* Images.xcassets in Resources */,
 			);
@@ -249,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A3201718697DDA00548DC4 /* AppDelegate.m in Sources */,
+				20A3203D1869E27200548DC4 /* PatientsTVC.m in Sources */,
 				20A3201318697DDA00548DC4 /* main.m in Sources */,
 				20A3201A18697DDA00548DC4 /* CoreData.xcdatamodeld in Sources */,
+				20A320431869E36000548DC4 /* AddPatientVC.m in Sources */,
+				20A320401869E2A800548DC4 /* PrescriptionsTVC.m in Sources */,
+				20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,10 +400,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +416,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
