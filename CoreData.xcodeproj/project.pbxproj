@@ -27,6 +27,7 @@
 		20A320401869E2A800548DC4 /* PrescriptionsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3203F1869E2A800548DC4 /* PrescriptionsTVC.m */; };
 		20A320431869E36000548DC4 /* AddPatientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320421869E36000548DC4 /* AddPatientVC.m */; };
 		20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320451869E39100548DC4 /* AddPrescriptionVC.m */; };
+		20A6C33C186C234E0024DE57 /* CoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C33B186C234E0024DE57 /* CoreVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		20A320421869E36000548DC4 /* AddPatientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientVC.m; sourceTree = "<group>"; };
 		20A320441869E39100548DC4 /* AddPrescriptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPrescriptionVC.h; sourceTree = "<group>"; };
 		20A320451869E39100548DC4 /* AddPrescriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrescriptionVC.m; sourceTree = "<group>"; };
+		20A6C33A186C234E0024DE57 /* CoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreVC.h; sourceTree = "<group>"; };
+		20A6C33B186C234E0024DE57 /* CoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				20A3203918697F6E00548DC4 /* MainStoryBoard.storyboard */,
+				20A6C33A186C234E0024DE57 /* CoreVC.h */,
+				20A6C33B186C234E0024DE57 /* CoreVC.m */,
 				20A3203B1869E27200548DC4 /* PatientsTVC.h */,
 				20A3203C1869E27200548DC4 /* PatientsTVC.m */,
 				20A3203E1869E2A800548DC4 /* PrescriptionsTVC.h */,
@@ -280,6 +285,7 @@
 				20A3201318697DDA00548DC4 /* main.m in Sources */,
 				20A3201A18697DDA00548DC4 /* CoreData.xcdatamodeld in Sources */,
 				20A320431869E36000548DC4 /* AddPatientVC.m in Sources */,
+				20A6C33C186C234E0024DE57 /* CoreVC.m in Sources */,
 				20A320401869E2A800548DC4 /* PrescriptionsTVC.m in Sources */,
 				20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */,
 			);
@@ -488,6 +494,7 @@
 				20A3203518697DDA00548DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A3203618697DDA00548DC4 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				20A3203818697DDA00548DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

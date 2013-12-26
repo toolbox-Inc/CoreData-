@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (IBAction)cancel:(UIBarButtonItem *)sender {
+    
+    [super cancellAndDismiss];
+}
+
+- (IBAction)save:(UIBarButtonItem *)sender {
+    
+    [super saveAndDismiss];
+}
 @end

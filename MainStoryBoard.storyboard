@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4jj-oW-hfE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4jj-oW-hfE">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -46,13 +46,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Patient" id="EYi-Zf-HEF">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="loT-fG-UnN"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="phg-oe-Il2"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="loT-fG-UnN">
+                            <connections>
+                                <action selector="cancel:" destination="2vg-gV-lgP" id="LKy-eU-U5G"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="phg-oe-Il2">
+                            <connections>
+                                <action selector="save:" destination="2vg-gV-lgP" id="ET9-4q-yPp"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="patientFirstName" destination="ULH-J8-jVa" id="INb-DC-OQ0"/>
+                        <outlet property="patientLastName" destination="lY1-Dd-InI" id="cgs-TX-XMY"/>
+                        <outlet property="saveButton" destination="phg-oe-Il2" id="pTF-xA-quT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efd-r6-eqO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="-332"/>
+            <point key="canvasLocation" x="483" y="-321"/>
         </scene>
         <!--Add PrescriptionVC - Add Prescription-->
         <scene sceneID="fK2-Vf-YM4">
@@ -96,13 +109,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Prescription" id="hnV-Av-KAg">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="MVb-9k-WA1"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Pth-sX-yey"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="MVb-9k-WA1">
+                            <connections>
+                                <action selector="cancel:" destination="azc-2T-3jB" id="3vq-A9-gCM"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Pth-sX-yey">
+                            <connections>
+                                <action selector="save:" destination="azc-2T-3jB" id="fnx-Ve-Eyf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="instructionsLabel" destination="BJC-TL-tZ7" id="VpR-cJ-hda"/>
+                        <outlet property="prescriptionName" destination="z4a-xi-T7H" id="0a0-D7-fYi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHB-id-fZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1025" y="-332"/>
+            <point key="canvasLocation" x="1253" y="-327"/>
         </scene>
         <!--PatientsTVC - Patients-->
         <scene sceneID="k2N-Oi-I76">
@@ -211,7 +236,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bof-S0-hSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="-332"/>
+            <point key="canvasLocation" x="150" y="-321"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9j3-gs-Kb3">
@@ -229,7 +254,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1H7-hc-p2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1025" y="-332"/>
+            <point key="canvasLocation" x="922" y="-327"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

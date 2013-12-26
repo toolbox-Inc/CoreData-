@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreVC.h"
 
-@interface AddPrescriptionVC : UIViewController
+@interface AddPrescriptionVC : CoreVC
+
+@property (weak, nonatomic) IBOutlet UITextField *prescriptionName;
+@property (weak, nonatomic) IBOutlet UITextField *instructionsLabel;
+
+- (IBAction)cancel:(UIBarButtonItem *)sender;
+- (IBAction)save:(UIBarButtonItem *)sender;
+
 
 @end
