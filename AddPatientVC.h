@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CoreVC.h"
+#import "Patient.h"
 
 @interface AddPatientVC : CoreVC
 
@@ -18,5 +19,6 @@
 - (IBAction)save:(UIBarButtonItem *)sender;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *saveButton;
+@property (nonatomic, strong) Patient *addPatient;
 
 @end

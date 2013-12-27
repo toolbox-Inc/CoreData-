@@ -43,6 +43,8 @@
 
 - (IBAction)save:(UIBarButtonItem *)sender {
     
+    self.addPatient.patientFirstName = _patientFirstName.text;
+    self.addPatient.patientLastName = _patientLastName.text;
     [super saveAndDismiss];
 }
 @end

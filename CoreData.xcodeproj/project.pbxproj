@@ -28,6 +28,8 @@
 		20A320431869E36000548DC4 /* AddPatientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320421869E36000548DC4 /* AddPatientVC.m */; };
 		20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A320451869E39100548DC4 /* AddPrescriptionVC.m */; };
 		20A6C33C186C234E0024DE57 /* CoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C33B186C234E0024DE57 /* CoreVC.m */; };
+		20A6C345186C7BAC0024DE57 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C344186C7BAC0024DE57 /* Patient.m */; };
+		20A6C348186C7BAC0024DE57 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6C347186C7BAC0024DE57 /* Prescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		20A320451869E39100548DC4 /* AddPrescriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrescriptionVC.m; sourceTree = "<group>"; };
 		20A6C33A186C234E0024DE57 /* CoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreVC.h; sourceTree = "<group>"; };
 		20A6C33B186C234E0024DE57 /* CoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreVC.m; sourceTree = "<group>"; };
+		20A6C343186C7BAC0024DE57 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		20A6C344186C7BAC0024DE57 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		20A6C346186C7BAC0024DE57 /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		20A6C347186C7BAC0024DE57 /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		20A31FF818697DDA00548DC4 = {
 			isa = PBXGroup;
 			children = (
+				20A6C346186C7BAC0024DE57 /* Prescription.h */,
+				20A6C347186C7BAC0024DE57 /* Prescription.m */,
+				20A6C343186C7BAC0024DE57 /* Patient.h */,
+				20A6C344186C7BAC0024DE57 /* Patient.m */,
 				20A3203918697F6E00548DC4 /* MainStoryBoard.storyboard */,
 				20A6C33A186C234E0024DE57 /* CoreVC.h */,
 				20A6C33B186C234E0024DE57 /* CoreVC.m */,
@@ -283,11 +293,13 @@
 				20A3201718697DDA00548DC4 /* AppDelegate.m in Sources */,
 				20A3203D1869E27200548DC4 /* PatientsTVC.m in Sources */,
 				20A3201318697DDA00548DC4 /* main.m in Sources */,
+				20A6C345186C7BAC0024DE57 /* Patient.m in Sources */,
 				20A3201A18697DDA00548DC4 /* CoreData.xcdatamodeld in Sources */,
 				20A320431869E36000548DC4 /* AddPatientVC.m in Sources */,
 				20A6C33C186C234E0024DE57 /* CoreVC.m in Sources */,
 				20A320401869E2A800548DC4 /* PrescriptionsTVC.m in Sources */,
 				20A320461869E39100548DC4 /* AddPrescriptionVC.m in Sources */,
+				20A6C348186C7BAC0024DE57 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
